@@ -1,0 +1,16 @@
+.vscode
+
+.DS_Store
+__MACOSX
+
+__pycache__
+*.pyc
+*.pyo
+*.pyd
+
+*.svg
+*.png
+*.pdf
+
+~*.xlsx
+~*.pptx
