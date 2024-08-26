@@ -1,4 +1,5 @@
 # SysBench
+Code for [SysBench: Can Large Language Models Follow System Messages?](https://arxiv.org/abs/2408.10943)
 
 ## Introduction
 
@@ -193,3 +194,14 @@ python plot/fig6_atscore -h
 ### Expected Results
 
 Even though there exists unavoidable randomness and fluctuation, especially for closed models, all the figures and tables should statistically match the patterns shown in the paper.
+
+## Citation
+
+```bibtex
+@article{qin2024sysbench,
+  title={SysBench: Can Large Language Models Follow System Messages?},
+  author={Qin, Yanzhao and Zhang, Tao and Shen, Yanjun and Luo, Wenjing and Sun, Haoze and Zhang, Yan and Qiao, Yujing and Chen, Weipeng and Zhou, Zenan and Zhang, Wentao and others},
+  journal={arXiv preprint arXiv:2408.10943},
+  year={2024}
+}
+```
