@@ -7,7 +7,7 @@ from openai import OpenAI
 random.seed(1234)
 
 class gpt4o(object):
-    def __init__(self, model_name="gpt-4o", key="<enter your key>") -> None:
+    def __init__(self, model_name="gpt-4o-2024-05-13", key="<enter your key>") -> None:
         self.client = OpenAI(api_key=key)
         self.model_name = model_name
         print(f"model_name: {self.model_name}")
