@@ -60,7 +60,7 @@ def analysis_eval_results(eval_result_filepath, analysis_eval_output_path):
             round_info["round_index"] = index + 1
             round_info["system_prompt"] = data["system_prompt"]
             round_info["prompt"] = prompt
-            round_info["referrence"] = data["messages"][index*2 + 1]["content"]
+            round_info["referrence"] = data["messages"][index*2 + 2]["content"]
             round_info["answer"] = eval_res["response"]
             round_info["infer_model"] = data["infer_model"]
             round_info["评判细则"] = "\n".join([str(cri["criteria_id"]) + ". " + cri["criteria_content"] + " | " + cri["criteria_type"]  for cri_index, cri in eval_res["criteria"].items()])
